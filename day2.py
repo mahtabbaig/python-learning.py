@@ -44,3 +44,13 @@ print(a)
 a=5
 b=5
 print(not(a==b))
+
+#type conversion
+a=2
+b=3.51
+print(a+b)
+
+#type casting
+a="5"
+a=int("5")
+b=3.51

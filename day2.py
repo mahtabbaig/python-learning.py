@@ -4,6 +4,7 @@ name = "mahtab"
 
 age = 19
 
+
 # Data types
 
 name = "mahtab"

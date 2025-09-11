@@ -63,3 +63,10 @@ marks=int(input("enter your marks:"))
 print("welcome to",college)
 print("address=",pincode)
 print("your marks=",marks)
+
+#practice
+
+first=int(input("enter number:"))
+second=int(input("enter number:"))
+print("sum=",first + second)
+

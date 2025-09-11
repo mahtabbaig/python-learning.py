@@ -1,3 +1,2 @@
-print("hello world")
+print("hello world","mahtab baig")
 
-print("mahtab azzez baig")

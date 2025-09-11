@@ -54,3 +54,12 @@ print(a+b)
 a="5"
 a=int("5")
 b=3.51
+
+#input in python
+college=input("enter your college name:")
+pincode=int(input("enter pincode:"))
+marks=int(input("enter your marks:"))
+
+print("welcome to",college)
+print("address=",pincode)
+print("your marks=",marks)

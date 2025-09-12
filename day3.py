@@ -77,5 +77,16 @@ if(fine>=2000):
 elif(fine>=2500):
     print("fine not payed")
 else:
-    print("payment is done")            
+    print("payment is done")  
+
+ #nesting
+marks=400
+if(marks>=550):
+    if(marks>=570):
+        print("destintion")
+    else:
+        print("pass")    
+else:
+    print("fail")             
     
+ 

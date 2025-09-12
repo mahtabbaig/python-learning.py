@@ -56,3 +56,26 @@ print(str.find("is"))
 5.
 str="My name is mahtab"
 print(str.count("name"))
+
+#conditional statements
+## if
+fine=1000
+if(fine>=1000):
+    print("fine is approved")
+
+##elif
+fine=1000
+if(fine>=2000):
+    print("fine not payed")
+elif(fine>=800):
+    print("fine is payed")    
+
+##else
+fine=1000
+if(fine>=2000):
+    print("not payed")
+elif(fine>=2500):
+    print("fine not payed")
+else:
+    print("payment is done")            
+    

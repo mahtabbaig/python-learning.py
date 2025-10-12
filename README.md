@@ -1,16 +1,16 @@
 # python-learning.py
-welcome to my learning repository!
+Welcome to my learning repository!
 This repo contains my practice code, and projects as I start my journey in Python programming.
 
 ---
-## Topics I am covering
+## Topics that I covered:
 - Basics (variables, data types, input/output)
 - control flow (if-else, loops)
 - Functions and modules
 - Data structures(lists, tuples, sets, dictionaries)
 - File handling
 - OOP concepts
-- small projects
+  
 
 ---
 ## Goals

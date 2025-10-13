@@ -37,4 +37,85 @@ class student:
    @staticmethod
    def college():
       print("nie")
-   college()       
+   college()      
+
+##del key:
+class rent:
+   def __init__(self,name,roll):
+      self.name=name
+      self.roll=roll
+s1=rent("mahtab",240)
+del s1.name
+print(s1.roll)      
+
+##Private:
+class home: 
+   def __init__(self,name):
+      self.__name=name
+   def __hello(self):
+      print("welcome",self.__name)
+   def welcome(self):
+     self.__hello()  
+s1=home("mahtab") 
+s1.welcome()  
+
+## inheritance:
+class report:
+   @staticmethod
+   def blood():
+      print("blood is A+")
+   @staticmethod
+   def cancer():
+      print("cancer test is -ve")
+class haemoglobin(report):
+   def __init__(self,name):
+      self.name=name
+
+            
+repo1=haemoglobin("TB")
+print(repo1.name,repo1.cancer())
+
+## super method:              
+class report:
+   @staticmethod
+   def blood():
+      print("blood is A+")
+   @staticmethod
+   def cancer():
+      print("cancer test is -ve")
+class haemoglobin(report):
+   def __init__(self,name):
+      self.name=name
+class result(haemoglobin):
+   def __init__(self, colour,name):
+      super().__init__(name)
+      self.colour=colour
+      super().blood()
+            
+repo1=result("TB","black")
+print(repo1.name,repo1.colour,repo1.cancer())
+
+## classmethod:
+class person:
+   name="mahtab"
+   @classmethod
+   def change(cls,name):
+      cls.name=name
+s1=person()
+s1.change("shabreen")
+print(person.name)     
+
+class nie:
+   def __init__(self,phy,che,math):
+      self.phy=phy
+      self.che=che
+      self.math=math
+   @property
+   def percentage(self):
+      return str((self.phy+self.che+self.math)/3) +"%"
+stud1=nie(95,94,98)
+print(stud1.percentage )
+stud1.phy=100
+print(stud1.percentage)
+
+         

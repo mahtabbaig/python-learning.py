@@ -118,4 +118,18 @@ print(stud1.percentage )
 stud1.phy=100
 print(stud1.percentage)
 
-         
+#3 polymorphism:
+class complex:
+   def __init__(self,real,image):
+      self.real=real
+      self.image=image
+   def __add__(self,other):
+      real1=self.real+other.real
+      real2=self.image+other.image
+      return complex(real1,real2)
+   def show(self):
+      print(self.real,"i +",self.image,"j")
+num1=complex(2,4)
+num2=complex(1,3)
+num3=num1+num2
+num3.show()                   
